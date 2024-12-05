@@ -1,0 +1,50 @@
+
+/* Apply Flexbox to the main wrapper */
+.ai-feedback-wrapper {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  padding: 20px; /* Increase padding for better spacing */
+  width: 100%; /* Ensure the wrapper takes the full width */
+}
+
+/* Ensure the inner block is using Flexbox */
+.ai-feedback-wrapper > .ai-feedback.block {
+  display: flex;
+  justify-content: center; /* Center the content within this block */
+  align-items: center; /* Center the content vertically */
+  max-width: 100%; /* Ensure the block spans the full width if needed */
+  width: 100%; /* Ensure the block takes the full width */
+}
+
+/* Ensure the div containing the text is displayed inline */
+.ai-feedback-wrapper > .ai-feedback.block > div > div {
+  display: flex;
+  flex-direction: row; /* Ensure the content within this div is side by side */
+  align-items: center; /* Center the content vertically */
+  justify-content: center; /* Center the content horizontally */
+  width: 100%; /* Ensure the inner div takes the full width */
+}
+
+/* Style the paragraph to ensure text and links are inline */
+.ai-feedback-wrapper > .ai-feedback.block p {
+  display: inline; /* Ensure the paragraph itself is inline */
+  margin: 0; /* Remove default margins */
+  font-weight: bold; /* Ensure the text is bold */
+  text-align: center; /* Center the text */
+  padding: 0 20px; /* Increase horizontal padding for better spacing */
+  line-height: 1.6; /* Adjust line height for better spacing */
+}
+
+/* Style links to match the original image */
+.ai-feedback-wrapper > .ai-feedback.block a {
+  color: #007b8c; /* Change link color to teal */
+  text-decoration: underline; /* Add underline to links */
+}
+
+/* Optional: Ensure the whole block is visually aligned */
+.ai-feedback-wrapper > .ai-feedback.block {
+  padding: 20px; /* Increase padding for better spacing */
+  text-align: center; /* Center the text within the block */
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+}

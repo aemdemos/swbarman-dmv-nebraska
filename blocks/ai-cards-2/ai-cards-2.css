@@ -1,0 +1,50 @@
+
+/* Apply flexbox layout to the parent container */
+.ai-cards-2-container > .ai-cards-2-wrapper > .block.ai-cards-2 > ul {
+  display: flex;
+  justify-content: space-between; /* Ensures even spacing between items */
+  align-items: flex-start; /* Aligns items at the start vertically */
+  list-style: none; /* Removes default list styling */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+}
+
+/* Ensure each list item is displayed as a column and centered */
+.ai-cards-2-container > .ai-cards-2-wrapper > .block.ai-cards-2 > ul > li {
+  display: flex;
+  flex-direction: column; /* Ensures items within list are stacked vertically */
+  align-items: center; /* Center-aligns the contents */
+  text-align: center;
+  border: none; /* Removes border */
+  background-color: transparent; /* Removes background color */
+}
+
+/* Ensure images do not fill the entire width */
+.ai-cards-2-container > .ai-cards-2-wrapper > .block.ai-cards-2 .ai-cards-2-card-image {
+  margin-bottom: 10px; /* Space between image and text */
+  display: flex;
+  justify-content: center; /* Center the image */
+}
+
+/* Ensure images maintain aspect ratio */
+.ai-cards-2-container > .ai-cards-2-wrapper > .block.ai-cards-2 .ai-cards-2-card-image img {
+  width: auto; /* Allows natural width */
+  max-width: 100%; /* Ensures images do not overflow */
+  height: auto; /* Maintains aspect ratio */
+  margin: 0 auto; /* Centers the image horizontally */
+}
+
+/* Style links to remove button appearance */
+.ai-cards-2-container > .ai-cards-2-wrapper > .block.ai-cards-2 .button {
+  display: block; /* Ensures block display for centering */
+  background-color: transparent; /* Removes button background */
+  color: inherit; /* Inherits text color */
+  text-decoration: none; /* Removes underline */
+  padding: 0; /* Removes padding */
+  border: none; /* Removes button border */
+  border-radius: 0; /* Removes button border radius */
+  cursor: pointer; /* Maintains cursor pointer */
+  font-size: inherit; /* Inherits font size */
+  font-weight: normal; /* Ensures normal font weight */
+  margin: 0; /* Ensures no extra margin */
+}

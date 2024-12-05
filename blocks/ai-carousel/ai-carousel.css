@@ -1,0 +1,101 @@
+
+.ai-carousel-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.ai-carousel {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.ai-carousel > div {
+  position: relative;
+  flex: 0 0 100%;
+  display: flex;
+  align-items: flex-end; /* Align items to the bottom */
+  height: 450px; /* Set height to match image height */
+}
+
+.ai-carousel > div > div:first-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Ensure the image is behind the overlay */
+}
+
+.ai-carousel > div > div:first-child picture, 
+.ai-carousel > div > div:first-child img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ai-carousel > div > div:last-child {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px 40px; /* Adjust padding for better spacing */
+  color: white;
+  display: flex;
+  flex-direction: column; /* Stack text elements vertically */
+  align-items: flex-start; /* Align text to the left */
+}
+
+.ai-carousel h1, .ai-carousel p {
+  margin: 0;
+}
+
+.ai-carousel h1 a, .ai-carousel p a {
+  color: white;
+  text-decoration: none;
+}
+
+.ai-carousel h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.ai-carousel p {
+  font-size: 1em;
+}
+
+.ai-carousel-container > .ai-carousel-wrapper > .block.ai-carousel .button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+}
+
+.ai-carousel-container > .ai-carousel-wrapper > .block.ai-carousel .button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Pagination dots */
+.ai-carousel-wrapper::after {
+  content: '';
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.ai-carousel-wrapper::after div {
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+.ai-carousel-wrapper::after div.active {
+  opacity: 1;
+}

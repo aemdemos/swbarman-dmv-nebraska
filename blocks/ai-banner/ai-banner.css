@@ -1,0 +1,51 @@
+
+.ai-banner-container > .ai-banner-wrapper {
+  background-color: #006b81; /* Teal blue background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0; /* Ensure the block spans the entire width without extra space */
+  max-width: unset; /* Ensure full width */
+  height: 100vh; /* Full height of the viewport */
+}
+
+.ai-banner-container > .ai-banner-wrapper > .ai-banner.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  height: 100%; /* Ensure content is vertically centered */
+}
+
+.ai-banner-container > .ai-banner-wrapper > .ai-banner.block > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ai-banner-container > .ai-banner-wrapper > .ai-banner.block #have-any-questions {
+  margin-bottom: 20px; /* Space between the heading and the button */
+  color: white; /* Ensure the text is visible against the teal background */
+}
+
+.ai-banner-container > .ai-banner-wrapper > .ai-banner.block .button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.ai-banner-container > .ai-banner-wrapper > .ai-banner.block .button {
+  padding: 15px 30px; /* Adjust padding for better appearance */
+  border: 2px solid white; /* Adjust border thickness */
+  border-radius: 5px; /* Adjust border radius */
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.ai-banner-container > .ai-banner-wrapper > .ai-banner.block .button:hover {
+  background-color: white;
+  color: #006b81; /* Teal blue color */
+}

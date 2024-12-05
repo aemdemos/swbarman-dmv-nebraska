@@ -1,0 +1,80 @@
+
+.ai-footer-wrapper {
+  background-color: #032c3d; /* Set the background color */
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.ai-footer-wrapper > .block.ai-footer > div {
+  display: flex;
+  flex-direction: row; /* Ensure main container elements are side by side */
+  justify-content: space-between; /* Distribute space evenly between columns */
+  align-items: flex-start; /* Align items at the start */
+  flex-wrap: nowrap; /* Prevent wrapping */
+}
+
+/* Style each column */
+.ai-footer-wrapper > .block.ai-footer > div > div {
+  display: flex;
+  flex-direction: column; /* Ensure content inside each column stacks vertically */
+  flex: 1 1 20%; /* Flex-grow, flex-shrink, and flex-basis for each column */
+  min-width: 200px; /* Ensure a minimum width for each column */
+  margin: 0 20px; /* Increase margin for better spacing */
+}
+
+.ai-footer-wrapper .block.ai-footer h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #fff; /* Set the color for headings */
+}
+
+.ai-footer-wrapper .block.ai-footer .button-container {
+  margin: 5px 0; /* Add vertical spacing between links */
+}
+
+.ai-footer-wrapper .block.ai-footer .button-container .button {
+  color: #fff; /* Set the text color for buttons */
+  text-decoration: none; /* Remove underline from links */
+  background: none; /* Remove background */
+  border: none; /* Remove border */
+  padding: 0; /* Remove padding */
+  border-radius: 0; /* Remove rounded corners */
+}
+
+/* Style for the social media icons and additional text */
+.ai-footer-wrapper .block.ai-footer #facebook-icon-envelope-icon-rss-feed-icon-twitter-feed-icon h2 {
+  display: flex;
+  flex-direction: row; /* Ensure icons are side by side */
+  justify-content: flex-start; /* Align icons horizontally */
+  gap: 10px; /* Add spacing between icons */
+  margin: 0;
+  padding: 0;
+  color: #fff; /* Set the color for icons */
+}
+
+.ai-footer-wrapper .block.ai-footer #facebook-icon-envelope-icon-rss-feed-icon-twitter-feed-icon h2 a {
+  color: #fff; /* Set the color for icons */
+}
+
+.ai-footer-wrapper .block.ai-footer #facebook-icon-envelope-icon-rss-feed-icon-twitter-feed-icon p {
+  color: #fff; /* Set the text color */
+  font-size: 0.9em;
+  margin-top: 10px; /* Add spacing above text */
+}
+
+.ai-footer-wrapper .block.ai-footer #facebook-icon-envelope-icon-rss-feed-icon-twitter-feed-icon picture {
+  display: flex;
+  flex-direction: row; /* Align pictures side by side */
+  margin: 10px 0; /* Add margin for spacing */
+}
+
+@media (max-width: 768px) {
+  /* Ensure responsiveness for smaller screens */
+  .ai-footer-wrapper > .block.ai-footer > div {
+    flex-direction: column; /* Stack columns vertically */
+  }
+  .ai-footer-wrapper > .block.ai-footer > div > div {
+    flex: 1 1 100%; /* Ensure columns take full width */
+    min-width: auto;
+    margin: 10px 0; /* Add vertical margin for spacing */
+  }
+}

@@ -1,0 +1,54 @@
+
+.ai-businesses-wrapper {
+  background-color: #b3b83a; /* Set background color to match the original image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px; /* Ensure a fixed height for consistent appearance */
+  max-width: unset;
+  padding: 0;
+}
+
+.ai-businesses {
+  display: flex;
+  align-items: center;
+}
+
+.ai-businesses > div {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.ai-businesses ul {
+  list-style: none; /* Remove bullet point */
+  margin: 0;
+  padding: 0;
+}
+
+.ai-businesses li {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.ai-businesses picture {
+  margin-right: 8px; /* Adjust spacing between the icon and the text to match the original */
+  display: flex;
+  align-items: center;
+  height: 40px; /* Adjust height to ensure the icon is proportionate */
+}
+
+.ai-businesses img {
+  max-height: 100%;
+  width: auto;
+}
+
+.ai-businesses a {
+  text-decoration: none; /* Remove underline */
+  color: white; /* Set text color to white */
+  font-size: 24px; /* Adjust font size to match the original image */
+  font-weight: bold; /* Make text bold */
+  display: flex;
+  align-items: center;
+}

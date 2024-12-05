@@ -1,0 +1,68 @@
+
+/* Wrapper for overall block */
+.ai-individuals-wrapper {
+  background-color: #006E7F; /* Dark teal background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; /* Adjust height as needed */
+  text-align: center;
+  max-width: unset;
+  padding: 0;
+}
+
+/* Block styling */
+.ai-individuals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Inner div holding icon and text */
+.ai-individuals > div > div {
+  display: flex;
+  flex-direction: row; /* Ensure side-by-side alignment */
+  align-items: center;
+  justify-content: center;
+}
+
+/* Adjust icon size */
+.ai-individuals picture img {
+  width: 50px; /* Adjust width to match original image */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Ensure spacing between icon and text */
+  vertical-align: middle; /* Ensure vertical alignment with text */
+}
+
+/* Styling for the list item to align the picture and link side by side */
+.ai-individuals ul {
+  list-style-type: none; /* Remove bullet point */
+  margin: 0;
+  padding: 0;
+}
+
+.ai-individuals li {
+  display: flex;
+  flex-direction: row; /* Ensure side-by-side alignment */
+  align-items: center;
+}
+
+.ai-individuals picture,
+.ai-individuals a {
+  color: white; /* Change link color to white */
+  text-decoration: none; /* Remove underline from link */
+}
+
+.ai-individuals a:hover {
+  text-decoration: underline; /* Optional: Add underline on hover */
+}
+
+/* Arrow icon */
+.ai-individuals::after {
+  content: '▼'; /* Unicode for down arrow */
+  display: block;
+  margin-top: 10px; /* Adjust space between text and arrow */
+  color: white;
+  font-size: 20px; /* Adjust size as needed */
+}

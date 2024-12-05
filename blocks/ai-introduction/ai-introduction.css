@@ -1,0 +1,42 @@
+
+.ai-introduction-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9; /* Optional: Change this to match the background color of the block */
+  text-align: center; /* Ensure text is centered */
+}
+
+.ai-introduction-wrapper > .ai-introduction.block {
+  max-width: 800px;
+  width: 100%;
+}
+
+.ai-introduction-wrapper > .ai-introduction.block > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align the items */
+}
+
+.ai-introduction-wrapper > .ai-introduction.block p {
+  font-family: var(--body-font-family);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.ai-introduction-wrapper > .ai-introduction.block p strong {
+  color: var(--text-color);
+}
+
+.ai-introduction-wrapper > .ai-introduction.block p strong span {
+  color: red; /* Adjust this to style the specific text */
+}
+
+.ai-introduction-wrapper > .ai-introduction.block p a {
+  display: block; /* Ensure the link is displayed as a block */
+  margin-top: 10px;
+  color: var(--link-color); /* Adjust the link color */
+  text-decoration: underline;
+  font-weight: bold;
+}

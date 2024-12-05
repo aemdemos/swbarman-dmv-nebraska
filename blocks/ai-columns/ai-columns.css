@@ -1,0 +1,68 @@
+
+/* Wrapper for the entire block */
+.ai-columns-wrapper {
+  display: flex;
+  justify-content: center; /* Center the entire block horizontally */
+  padding: 20px; /* Optional padding around the block */
+}
+
+/* Flex container for the three columns */
+.ai-columns.block.ai-columns-3-cols {
+  display: flex;
+  justify-content: space-around; /* Space out the columns evenly */
+  align-items: center; /* Align items vertically in the center */
+  width: 100%;
+  max-width: 1200px; /* Optional max width */
+}
+
+/* Each individual column */
+.ai-columns.block.ai-columns-3-cols > div {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  flex-direction: row; /* Align content horizontally */
+  text-align: left; /* Align the text to the left */
+  margin: 0 20px; /* Optional margin between columns */
+}
+
+/* Ensuring images fit properly and aren't stretched */
+.ai-columns.block.ai-columns-3-cols img {
+  width: auto;
+  height: 78px; /* Matching the height of the icons in the original image */
+}
+
+/* Ensuring the image and text align properly */
+.ai-columns.block.ai-columns-3-cols > div > div {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  flex-direction: row; /* Align icon and text horizontally */
+  text-align: left; /* Align the text to the left */
+  margin-left: 10px; /* Adding space between the icon and the text */
+  gap: 5px; /* Reduce the gap for a tighter layout */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+/* Removing order property to ensure the correct sequence */
+.ai-columns.block.ai-columns-3-cols > div > .ai-columns-img-col {
+  order: unset;
+}
+
+.ai-columns.block.ai-columns-3-cols > div > .ai-columns-img-col img {
+  display: block;
+}
+
+/* Removing unnecessary order property */
+.ai-columns.block.ai-columns-3-cols > div > div {
+  order: unset;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .ai-columns.block.ai-columns-3-cols {
+    flex-direction: column; /* Stack columns vertically on smaller screens */
+    align-items: center;
+  }
+
+  .ai-columns.block.ai-columns-3-cols > div {
+    margin: 10px 0; /* Adjust margin for smaller screens */
+  }
+}

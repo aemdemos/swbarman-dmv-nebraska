@@ -1,0 +1,51 @@
+
+.ai-cards-wrapper {
+  background-color: #e0e7ed; /* Set the light background color */
+  padding: 20px; /* Add padding to the block to ensure spacing from the edges */
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+}
+
+.ai-cards {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: center; /* Center the grid within the wrapper */
+}
+
+.ai-cards > ul {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: center; /* Center the items within the list */
+  gap: 20px; /* Adjust the gap between cards */
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+.ai-cards > ul > li {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  width: calc(25% - 20px); /* Set width to allow 4 items per row with some spacing */
+  text-align: center; /* Center text within each item */
+  border: none;
+  background-color: transparent;
+}
+
+.ai-cards .ai-cards-card-body {
+  display: flex;
+  flex-direction: row; /* Ensure elements are side by side */
+  justify-content: center;
+  align-items: center;
+  margin: 0; /* Remove additional margins inside the cards */
+}
+
+.ai-cards .ai-cards-card-body p a {
+  background-color: transparent; /* Remove button background */
+  color: #004466; /* Set text color */
+  border: none; /* Remove button border */
+  padding: 0; /* Remove padding */
+  display: block; /* Display as block to control spacing */
+  text-align: center; /* Center align the text */
+  width: 100%; /* Make the link take full width */
+}
