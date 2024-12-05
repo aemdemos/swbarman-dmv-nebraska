@@ -1,0 +1,325 @@
+{
+  "url": "https://dmv.nebraska.gov/",
+  "sanitizedPath": "/index",
+  "autoDetect": false,
+  "mapping": [
+    {
+      "id": "1",
+      "path": "/nav",
+      "sections": [
+        {
+          "id": "1-1",
+          "blocks": [
+            {
+              "id": "box-id-1891081828",
+              "x": 0,
+              "y": 0,
+              "width": 2899,
+              "height": 85,
+              "xpath": "/html[1]/body[1]/div[2]/div[1]",
+              "layout": {
+                "numCols": 3,
+                "numRows": 1
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/a[1]/img[1]",
+                  "xpathWithDetails": "/html[@class=\"js\"]/body[@class=\"html front not-logged-in no-sidebars page-node page-node- page-node-1 node-type-page form-single-submit-processed jquery-once-1-processed\"]/div[@class=\"bkg-wrapper\"]/div[@class=\"wrap-container top\"]/div[@class=\"container-lg\"]/a[@class=\"nav-logo-mobile\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/nav[1]",
+                  "xpathWithDetails": "id(\"navbar\")"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]/div[2]",
+                  "xpathWithDetails": "/html[@class=\"js\"]/body[@class=\"html front not-logged-in no-sidebars page-node page-node- page-node-1 node-type-page form-single-submit-processed jquery-once-1-processed\"]/div[@class=\"bkg-wrapper\"]/div[@class=\"wrap-container top\"]/div[@class=\"container-lg\"]/div[@class=\"col-xs-0 col-sm-0 col-md-2 col-lg-2 help-section hidden-tablet hidden-xs\"]"
+                }
+              ],
+              "color": "rgb(148, 0, 211)",
+              "mapping": "header",
+              "customBlockName": "header"
+            }
+          ],
+          "settings": {}
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "path": "/index",
+      "sections": [
+        {
+          "id": "2-1",
+          "blocks": [
+            {
+              "id": "box-id--1122869710",
+              "x": 0,
+              "y": 85,
+              "width": 2899,
+              "height": 77,
+              "xpath": "/html[1]/body[1]/div[2]/div[19]/div[1]/div[1]/section[1]/p[1]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(75, 0, 130, 0.4)",
+              "mapping": "defaultContent",
+              "customBlockName": "ai-introduction"
+            },
+            {
+              "id": "box-id--1122869679",
+              "x": 0,
+              "y": 172,
+              "width": 2899,
+              "height": 25,
+              "xpath": "/html[1]/body[1]/div[2]/div[19]/div[1]/div[1]/section[1]/p[2]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(75, 0, 130, 0.4)",
+              "mapping": "defaultContent",
+              "customBlockName": "ai-paragraph"
+            },
+            {
+              "id": "box-id--1122869648",
+              "x": 0,
+              "y": 208,
+              "width": 2899,
+              "height": 34,
+              "xpath": "/html[1]/body[1]/div[2]/div[19]/div[1]/div[1]/section[1]/p[3]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(75, 0, 130, 0.4)",
+              "mapping": "defaultContent",
+              "customBlockName": "ai-feedback"
+            },
+            {
+              "id": "box-id-845377226",
+              "x": 0,
+              "y": 275,
+              "width": 2899,
+              "height": 905,
+              "xpath": "/html[1]/body[1]/div[2]/div[20]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(0, 0, 255, 0.4)",
+              "mapping": "carousel",
+              "customBlockName": "ai-carousel"
+            },
+            {
+              "id": "box-id--633249445",
+              "x": 0,
+              "y": 1181,
+              "width": 1449,
+              "height": 200,
+              "xpath": "/html[1]/body[1]/div[2]/div[21]/div[1]/ul[1]/li[1]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(0, 255, 0, 0.4)",
+              "mapping": "defaultContent",
+              "customBlockName": "ai-individuals"
+            },
+            {
+              "id": "box-id--633249414",
+              "x": 1449,
+              "y": 1181,
+              "width": 1449,
+              "height": 200,
+              "xpath": "/html[1]/body[1]/div[2]/div[21]/div[1]/ul[1]/li[2]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(0, 255, 0, 0.4)",
+              "mapping": "defaultContent",
+              "customBlockName": "ai-businesses"
+            },
+            {
+              "id": "box-id-82028710",
+              "x": 0,
+              "y": 1380,
+              "width": 2899,
+              "height": 398,
+              "xpath": "/html[1]/body[1]/div[2]/div[21]/div[1]/div[1]/div[1]/div[1]",
+              "layout": {
+                "numCols": 4,
+                "numRows": 2
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[21]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[1]",
+                  "xpathWithDetails": "id(\"views-bootstrap-tab-1\")/ul[@class=\"nav nav-tabs nav-justified\"]/li[@class=\"\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[21]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[2]",
+                  "xpathWithDetails": "id(\"views-bootstrap-tab-1\")/ul[@class=\"nav nav-tabs nav-justified\"]/li[@class=\"\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[21]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[3]",
+                  "xpathWithDetails": "id(\"views-bootstrap-tab-1\")/ul[@class=\"nav nav-tabs nav-justified\"]/li[@class=\"\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[21]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/ul[1]/li[4]",
+                  "xpathWithDetails": "id(\"views-bootstrap-tab-1\")/ul[@class=\"nav nav-tabs nav-justified\"]/li[@class=\"\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[21]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/ul[2]/li[5]",
+                  "xpathWithDetails": "id(\"views-bootstrap-tab-1\")/ul[@class=\"nav nav-tabs nav-justified\"]/li[@class=\"\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[21]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/ul[2]/li[6]",
+                  "xpathWithDetails": "id(\"views-bootstrap-tab-1\")/ul[@class=\"nav nav-tabs nav-justified\"]/li[@class=\"\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[21]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/ul[2]/li[7]",
+                  "xpathWithDetails": "id(\"views-bootstrap-tab-1\")/ul[@class=\"nav nav-tabs nav-justified\"]/li[@class=\"\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[21]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/ul[2]/li[8]",
+                  "xpathWithDetails": "id(\"views-bootstrap-tab-1\")/ul[@class=\"nav nav-tabs nav-justified\"]/li[@class=\"\"]"
+                }
+              ],
+              "color": "rgba(0, 255, 0, 0.3)",
+              "mapping": "cards",
+              "customBlockName": "ai-cards"
+            },
+            {
+              "id": "box-id-82028741",
+              "x": 0,
+              "y": 1778,
+              "width": 2899,
+              "height": 277,
+              "xpath": "/html[1]/body[1]/div[2]/div[21]/div[1]/div[1]/div[1]/div[2]",
+              "layout": {
+                "numCols": 5,
+                "numRows": 1
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[21]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "xpathWithDetails": "id(\"individuals\")/div[@class=\"row services-feature\"]/div[@class=\"col-sm-4 col-md-5ths five-col text-center\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[21]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "xpathWithDetails": "id(\"individuals\")/div[@class=\"row services-feature\"]/div[@class=\"col-sm-4 col-md-5ths five-col text-center\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[21]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "xpathWithDetails": "id(\"individuals\")/div[@class=\"row services-feature\"]/div[@class=\"col-sm-4 col-md-5ths five-col text-center\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[21]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "xpathWithDetails": "id(\"individuals\")/div[@class=\"row services-feature\"]/div[@class=\"col-sm-6 col-md-5ths five-col text-center ps-5\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[21]/div[1]/div[1]/div[1]/div[2]/div[5]",
+                  "xpathWithDetails": "id(\"individuals\")/div[@class=\"row services-feature\"]/div[@class=\"col-sm-6 col-md-5ths five-col text-center ps-5\"]"
+                }
+              ],
+              "color": "rgba(0, 255, 0, 0.3)",
+              "mapping": "cards",
+              "customBlockName": "ai-cards-2"
+            },
+            {
+              "id": "box-id--1506005755",
+              "x": 0,
+              "y": 2056,
+              "width": 2899,
+              "height": 191,
+              "xpath": "/html[1]/body[1]/div[2]/div[22]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgb(255, 255, 0)",
+              "mapping": "defaultContent",
+              "customBlockName": "ai-banner"
+            },
+            {
+              "id": "box-id--1506005724",
+              "x": 0,
+              "y": 2248,
+              "width": 2899,
+              "height": 267,
+              "xpath": "/html[1]/body[1]/div[2]/div[23]",
+              "layout": {
+                "numCols": 3,
+                "numRows": 1
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[23]/div[1]/div[1]",
+                  "xpathWithDetails": "/html[@class=\"js\"]/body[@class=\"html front not-logged-in no-sidebars page-node page-node- page-node-1 node-type-page form-single-submit-processed jquery-once-1-processed\"]/div[@class=\"bkg-wrapper\"]/div[@class=\"row\"]/div[@class=\"container-lg\"]/div[@class=\"col-xs-12 col-sm-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[23]/div[1]/div[2]",
+                  "xpathWithDetails": "/html[@class=\"js\"]/body[@class=\"html front not-logged-in no-sidebars page-node page-node- page-node-1 node-type-page form-single-submit-processed jquery-once-1-processed\"]/div[@class=\"bkg-wrapper\"]/div[@class=\"row\"]/div[@class=\"container-lg\"]/div[@class=\"col-xs-12 col-sm-4\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[23]/div[1]/div[3]",
+                  "xpathWithDetails": "/html[@class=\"js\"]/body[@class=\"html front not-logged-in no-sidebars page-node page-node- page-node-1 node-type-page form-single-submit-processed jquery-once-1-processed\"]/div[@class=\"bkg-wrapper\"]/div[@class=\"row\"]/div[@class=\"container-lg\"]/div[@class=\"col-xs-12 col-sm-4\"]"
+                }
+              ],
+              "color": "rgb(255, 127, 0)",
+              "mapping": "columns",
+              "customBlockName": "ai-columns"
+            }
+          ],
+          "settings": {}
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "path": "/footer",
+      "sections": [
+        {
+          "id": "3-1",
+          "blocks": [
+            {
+              "id": "box-id-1241388034",
+              "x": 0,
+              "y": 2561,
+              "width": 2899,
+              "height": 315,
+              "xpath": "/html[1]/body[1]/div[2]/div[24]/div[1]",
+              "layout": {
+                "numCols": 4,
+                "numRows": 1
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[24]/div[1]/div[1]/div[1]",
+                  "xpathWithDetails": "/html[@class=\"js\"]/body[@class=\"html front not-logged-in no-sidebars page-node page-node- page-node-1 node-type-page form-single-submit-processed jquery-once-1-processed\"]/div[@class=\"bkg-wrapper\"]/div[@class=\"footer wrap-container\"]/div[@class=\"row top-footer\"]/div[@class=\"container-lg\"]/div[@class=\"col-xs-12 col-sm-6 col-md-3 first-col-footer\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[24]/div[1]/div[1]/div[2]",
+                  "xpathWithDetails": "/html[@class=\"js\"]/body[@class=\"html front not-logged-in no-sidebars page-node page-node- page-node-1 node-type-page form-single-submit-processed jquery-once-1-processed\"]/div[@class=\"bkg-wrapper\"]/div[@class=\"footer wrap-container\"]/div[@class=\"row top-footer\"]/div[@class=\"container-lg\"]/div[@class=\"col-xs-12 col-sm-6 col-md-3 second-col-footer\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[24]/div[1]/div[1]/div[3]",
+                  "xpathWithDetails": "/html[@class=\"js\"]/body[@class=\"html front not-logged-in no-sidebars page-node page-node- page-node-1 node-type-page form-single-submit-processed jquery-once-1-processed\"]/div[@class=\"bkg-wrapper\"]/div[@class=\"footer wrap-container\"]/div[@class=\"row top-footer\"]/div[@class=\"container-lg\"]/div[@class=\"col-xs-12 col-sm-6 col-md-3 third-col-footer\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[2]/div[24]/div[1]/div[1]/div[4]",
+                  "xpathWithDetails": "/html[@class=\"js\"]/body[@class=\"html front not-logged-in no-sidebars page-node page-node- page-node-1 node-type-page form-single-submit-processed jquery-once-1-processed\"]/div[@class=\"bkg-wrapper\"]/div[@class=\"footer wrap-container\"]/div[@class=\"row top-footer\"]/div[@class=\"container-lg\"]/div[@class=\"col-xs-12 col-sm-6 col-md-3 forth-col-footer\"]"
+                }
+              ],
+              "color": "rgba(148, 0, 211, 0.4)",
+              "mapping": "columns",
+              "customBlockName": "ai-footer"
+            }
+          ],
+          "settings": {}
+        }
+      ]
+    }
+  ]
+}
